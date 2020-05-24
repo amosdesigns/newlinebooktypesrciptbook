@@ -1,6 +1,5 @@
 import React from "react";
 import {ColumnTitle, CardContainer} from "./styles";
-
 interface ColumnProps {
     text: string
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {Column} from "./Column";
 import {Card} from "./Card";
 import {AppContainer} from "./styles";

@@ -5,7 +5,6 @@ import styled from "styled-components";
 import App from './App';
 import './index.css';
 
-
 interface CounterProps {
     message: string;
 };
