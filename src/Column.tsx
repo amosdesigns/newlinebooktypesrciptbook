@@ -1,6 +1,6 @@
 import React from "react";
 import {AddNewItem} from "./AddNewItem";
-import {ColumnTitle, CardContainer} from "./styles";
+import {ColumnTitle, ColumnContainer} from "./styles";
 interface ColumnProps {
     text: string
 }
@@ -10,7 +10,7 @@ export const Column = ({
                            children,
                        }: React.PropsWithChildren<ColumnProps>) => {
     return (
-        <CardContainer>
+        <ColumnContainer>
             <ColumnTitle>{text}</ColumnTitle>
             {children}
             <AddNewItem
@@ -18,6 +18,6 @@ export const Column = ({
             onAdd={console.log}
             dark
             />
-        </CardContainer>
+        </ColumnContainer>
     );
 };
