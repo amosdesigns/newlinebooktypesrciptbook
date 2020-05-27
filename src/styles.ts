@@ -21,9 +21,11 @@ padding: 8px 8px;
 flex-grow: 0;
 `;
 
-export const ColumnTitle = styled.div`
-padding: 20px;
+export const ColumnTitle = styled.h2`
+padding-bottom: 10px;
 font-weight: bold;
+line-height:1;
+font-size:1rem;
 `;
 
 export const CardContainer = styled.div`
